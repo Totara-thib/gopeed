@@ -12,6 +12,7 @@ on:
   push:
     branches:
       - main
+      - tmp-ci-run
     paths:
       - "ui/flutter/lib/l10n/**"
       - "ui/flutter/l10n.yaml"
